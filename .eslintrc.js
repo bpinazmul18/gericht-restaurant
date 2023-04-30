@@ -4,25 +4,25 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
 
   env: {
     browser: true,
     node: true,
-    es6: true,
+    es6: true
   },
 
   settings: {
     react: {
-      version: 'detect',
+      version: 'detect'
     },
     'import/resolver': {
       node: {
-        extensions: ['.ts', '.tsx'],
-      },
-    },
+        extensions: ['.ts', '.tsx']
+      }
+    }
   },
 
   plugins: ['@typescript-eslint'],
@@ -35,7 +35,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:sonarjs/recommended',
     'plugin:security/recommended',
-    'plugin:react-hooks/recommended',
+    'plugin:react-hooks/recommended'
   ],
 
   rules: {
@@ -45,8 +45,8 @@ module.exports = {
     'react/jsx-filename-extension': [
       1,
       {
-        extensions: ['.ts', '.tsx', '.js', '.jsx'],
-      },
+        extensions: ['.ts', '.tsx', '.js', '.jsx']
+      }
     ],
     'react/jsx-props-no-spreading': 'off',
     'import/extensions': [
@@ -56,16 +56,16 @@ module.exports = {
         js: 'never',
         jsx: 'never',
         ts: 'never',
-        tsx: 'never',
-      },
+        tsx: 'never'
+      }
     ],
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
         components: ['Link'],
         specialLink: ['hrefLeft', 'hrefRight'],
-        aspects: ['invalidHref', 'preferButton'],
-      },
+        aspects: ['invalidHref', 'preferButton']
+      }
     ],
     'no-nested-ternary': 'off',
     'import/prefer-default-export': 'off',
@@ -74,8 +74,8 @@ module.exports = {
       {
         singleQuote: true,
         semi: false,
-        parser: 'flow',
-      },
-    ],
-  },
+        parser: 'flow'
+      }
+    ]
+  }
 }
