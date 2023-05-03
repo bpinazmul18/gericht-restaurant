@@ -1,9 +1,9 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 
-type Props = {
-  children: React.ReactNode,
+interface Props {
+  children: React.ReactNode;
 }
 
 function Index({ children }: Props) {
@@ -13,7 +13,7 @@ function Index({ children }: Props) {
       <main>{children}</main>
       <Footer />
     </>
-  )
+  );
 }
 
-export default Index
+export default Index;

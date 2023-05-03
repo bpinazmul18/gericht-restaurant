@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import brandLogo from '../../assets/img/Gerícht.svg'
-import { NavItem } from '../navbar'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import brandLogo from '../../assets/img/Gerícht.svg';
+import { NavItem } from '../navbar';
 
 function Header() {
   return (
@@ -53,7 +53,7 @@ function Header() {
         </div>
       </nav>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

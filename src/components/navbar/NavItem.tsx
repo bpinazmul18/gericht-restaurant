@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
 
 interface IProps {
   href: string;
@@ -13,7 +13,7 @@ function NavItem({ href, label }: IProps) {
         {label}
       </Link>
     </li>
-  )
+  );
 }
 
-export default NavItem
+export default NavItem;
