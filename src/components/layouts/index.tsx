@@ -1,15 +1,17 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
 type Props = {
-  children: React.ReactNode
+  children: React.ReactNode,
 }
 
 function Index({ children }: Props) {
   return (
     <>
-      <header>header</header>
+      <Header />
       <main>{children}</main>
-      <footer>Footer</footer>
+      <Footer />
     </>
   )
 }
