@@ -39,6 +39,7 @@ module.exports = {
   ],
 
   rules: {
+    '@typescript-eslint/no-var-requires': '0',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
     'react/react-in-jsx-scope': 'off',
@@ -73,9 +74,10 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        semi: false,
-        parser: 'flow'
+        semi: true,
+        parser: 'flow',
+        trailingComma: 'none'
       }
     ]
   }
-}
+};
