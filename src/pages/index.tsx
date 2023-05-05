@@ -1,7 +1,12 @@
+import { Features } from '@/components/containers';
 import React from 'react';
 
-function Index() {
-  return <div>Index</div>;
+function HomePage() {
+  return (
+    <>
+      <Features />
+    </>
+  );
 }
 
-export default Index;
+export default HomePage;
