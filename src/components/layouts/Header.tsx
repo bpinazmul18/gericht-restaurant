@@ -23,7 +23,7 @@ function Header() {
               />
             </Link>
 
-            <ul className="2xl:flex hidden items-center gap-8">
+            <ul className="2xl:flex hidden items-center gap-4">
               <NavItem href="/" label="Home" />
               <NavItem href="/pages" label="Pages" />
               <NavItem href="/contact-us" label="Contact Us" />
