@@ -8,7 +8,7 @@ type IProps = {
 
 const LinkItem = ({ name, link }: IProps) => {
   return (
-    <Link className="font-bold text-base leading-lh28 tracking-wider text-smokyBlack bg-secondary py-0.8 px-3.2" href={link}>
+    <Link className="font-bold text-base leading-lh28 tracking-wider text-smokyBlack bg-secondary border border-secondary hover:bg-smokyBlack hover:text-secondary py-0.8 px-3.2" href={link}>
       {name}
     </Link>
   );

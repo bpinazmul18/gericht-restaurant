@@ -21,6 +21,7 @@ module.exports = {
     fontSize: {
       sm: '0.8rem',
       base: '1.6rem',
+      1.8: '1.8rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.953rem',
@@ -49,17 +50,24 @@ module.exports = {
       }
     },
     extend: {
+      rotate: {
+        '270': '270deg',
+      },
       lineHeight: {
         'extra-loose': '2.5',
         lh28: '2.8rem',
         12: '3rem',
+        3.2: '3.2rem',
         lh30: '3rem',
         lh117: '11.7rem'
       },
       spacing: {
-        0.8: '0.8rem', 
+        0.8: '0.8rem',
+        1.6: '1.6rem',
         30: '3rem',
-        3.2: '3.2rem'
+        3.2: '3.2rem',
+        4: '4rem',
+        6.4: '6.4rem',
       },
       backgroundImage: {
         'gradient-radial':
