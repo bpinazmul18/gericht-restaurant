@@ -8,6 +8,16 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.04em',
+      widest: '.1em',
+      widest: '.25em'
+    },
     fontSize: {
       sm: '0.8rem',
       base: '1.6rem',
@@ -15,12 +25,16 @@ module.exports = {
       '2xl': '1.563rem',
       '3xl': '1.953rem',
       '4xl': '2.441rem',
-      '5xl': '3.052rem'
+      '5xl': '3.052rem',
+      fs23: '2.3rem',
+      fs90: '9rem'
     },
     colors: {
       primary: '#040404',
       secondary: '#DCCA87',
       white: '#fff',
+      smokyBlack: '#0C0B08',
+      silverChalice: '#AAAAAA',
       ...colors
     },
     container: {
@@ -31,12 +45,21 @@ module.exports = {
         md: '768px',
         lg: '1024px',
         xl: '1280px',
-        '2xl': '1920px'
+        '2xl': '1820px'
       }
     },
     extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        lh28: '2.8rem',
+        12: '3rem',
+        lh30: '3rem',
+        lh117: '11.7rem'
+      },
       spacing: {
-        30: '30px'
+        0.8: '0.8rem', 
+        30: '3rem',
+        3.2: '3.2rem'
       },
       backgroundImage: {
         'gradient-radial':
