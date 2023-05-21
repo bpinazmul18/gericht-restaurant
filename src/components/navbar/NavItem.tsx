@@ -11,7 +11,7 @@ function NavItem({ href, label }: IProps) {
     <li>
       <Link
         href={href}
-        className="font-normal text-base leading-7 block text-white capitalize 2xl:py-2 2xl:px-4 p-4"
+        className="font-normal text-base leading-7 block text-white capitalize sm:p-2.5 md:px-3 2xl:px-4"
       >
         {label}
       </Link>

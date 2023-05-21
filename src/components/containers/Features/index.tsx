@@ -3,6 +3,7 @@ import React from 'react';
 
 import heroImg from '../../../assets/img/Hero img.png';
 import { LinkItem } from '@/components/common';
+import Link from 'next/link';
 
 
 
@@ -79,9 +80,9 @@ function Features() {
               </ul>
             </div>
 
-            <div className="hidden">
-              <div className="h-[60px] bg-linear-gradient"></div>
-              <span>Scroll</span>
+            <div className="absolute right-0 bottom-0 flex flex-col items-center gap-6">
+              <div className="h-[60px] w-[1px] border border-secondary"></div>
+              <Link href="#bottom" className='font-bold text-base leading-7 tracking-wider uppercase text-secondary hover:cursor-pointer'>Scroll</Link>
             </div>
             </div>
         </div>
