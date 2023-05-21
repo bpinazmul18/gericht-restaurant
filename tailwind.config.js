@@ -21,6 +21,7 @@ module.exports = {
     fontSize: {
       sm: '0.8rem',
       base: '1.6rem',
+      1.8: '1.8rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.953rem',
@@ -49,23 +50,31 @@ module.exports = {
       }
     },
     extend: {
+      rotate: {
+        '270': '270deg',
+      },
       lineHeight: {
         'extra-loose': '2.5',
         lh28: '2.8rem',
         12: '3rem',
+        3.2: '3.2rem',
         lh30: '3rem',
         lh117: '11.7rem'
       },
       spacing: {
-        0.8: '0.8rem', 
+        0.8: '0.8rem',
+        1.6: '1.6rem',
         30: '3rem',
-        3.2: '3.2rem'
+        3.2: '3.2rem',
+        4: '4rem',
+        6.4: '6.4rem',
       },
       backgroundImage: {
         'gradient-radial':
           'radial-gradient(50% 50% at 50% 50%, #FFFFFF 58.85%, rgba(255, 255, 255, 0) 100%)',
         'linear-gradient':
-          'linear-gradient(270deg, #DCCA87 -19.44%, #DCCA87 44.12%, rgba(220, 202, 135, 0.24) 117.57%)'
+          'linear-gradient(270deg, #DCCA87 -19.44%, #DCCA87 44.12%, rgba(220, 202, 135, 0.24) 117.57%)',
+          'liner-gradient-1':'linear-gradient(270deg, #DCCA87 -19.44%, #DCCA87 44.12%, rgba(220, 202, 135, 0.24) 117.57%)',
       }
     }
   },

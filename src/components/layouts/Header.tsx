@@ -15,7 +15,7 @@ function Header() {
           <div className="flex items-center justify-between">
             <Link href="/">
               <Image
-                className="2xl:h-14 xl:h-10 "
+                className="2xl:h-14 xl:h-10 w-full"
                 src={brandLogo}
                 width={199}
                 height={57}
@@ -23,7 +23,7 @@ function Header() {
               />
             </Link>
 
-            <ul className="2xl:flex hidden items-center gap-4">
+            <ul className="2xl:flex hidden items-center gap-4 2xl:gap-2">
               <NavItem href="/" label="Home" />
               <NavItem href="/pages" label="Pages" />
               <NavItem href="/contact-us" label="Contact Us" />
@@ -32,12 +32,12 @@ function Header() {
               <NavItem href="/landing" label="Landing" />
             </ul>
 
-            <ul className="md:flex hidden item-center gap-8">
+            <ul className="md:flex hidden item-center gap-8 2xl:gap-2">
               <NavItem
                 href="/login-registration"
                 label="Log in / registration"
               />
-              <li className="relative">
+              <li className="relative flex items-center">
                 <div className="absolute left-1/2 -ml-0.5 w-0.5 2xl:h-14 xl:h-10 h-8 bg-gradient-radial" />
               </li>
               <NavItem href="/book-table" label="book table" />
